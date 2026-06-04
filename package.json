@@ -1,0 +1,13 @@
+{
+  "name": "external-ip",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/app.ts",
+    "dev": "node --watch --env-file=.env src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^25.9.1"
+  }
+}
